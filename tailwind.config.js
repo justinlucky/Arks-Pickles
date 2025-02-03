@@ -31,11 +31,12 @@ export default {
         backgroundColor:"#002e4e",
         text:"#00406c",
         heading:"#f0f7ff",
-        primary:"#1b3a4b",
-        secondary:"#455e6c",
+        primary:"#050721",
+        secondary:"09122C",
         gold:"#ffd700",
         purple:"#7d3c98",
         red:"#ff0000",
+        footer: "#030518"
       },
       animation: {
         scroll:

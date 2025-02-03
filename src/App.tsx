@@ -8,6 +8,9 @@ import ServiceDetails from './pages/ServiceDetails'
 import BookForm from './pages/BookForm'
 import Gallery from './pages/Gallery'
 import TeamContact from './pages/TeamContact'
+import Products from './pages/Products'
+import Cart from './pages/Cart'
+import CheckOut from './pages/CheckOut'
 
 function App() {
 
@@ -24,6 +27,9 @@ function App() {
           <Route path="/service/:id" element={<ServiceDetails />} />
           <Route path="/service/booking/:id" element={<BookForm />} />
           <Route path="/team-contact" element={<TeamContact/>} />
+          <Route path="/products" element={<Products/>} />
+          <Route path="/cart" element={<Cart/>} />
+          <Route path="/check-out" element={<CheckOut/>} />
         </Routes>
       </Router>
     </>

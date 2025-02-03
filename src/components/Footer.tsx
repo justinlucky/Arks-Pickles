@@ -15,6 +15,11 @@ const Footer = () => {
     },
 
     {
+      href: '/products',
+      name: 'Our Products'
+    },
+
+    {
       href: '/services',
       name: 'Services'
     },
@@ -30,7 +35,7 @@ const Footer = () => {
     <footer className="text-gray-500 bg-white px-4 py-5 mt-[-10px] rounded-t-2xl rounded-lg w-full   self-end mx-auto md:px-8">
       <div className="max-w-lg sm:mx-auto sm:text-center">
 
-        <h1 className=" font-bold text-text text-2xl md:text-3xl">Muscle Care Clinic</h1>
+        <h1 className=" font-bold text-text text-2xl md:text-3xl">Arks Pickles</h1>
       </div>
       <ul className="items-center justify-center mt-8 space-y-5 sm:flex sm:space-x-4 sm:space-y-0">
         {

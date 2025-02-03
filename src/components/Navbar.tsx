@@ -8,6 +8,7 @@ const Navbar = () => {
   const navigation = [
     { title: "Home", path: "/" },
     { title: "About", path: "/about" },
+    { title: "Our Products", path: "/products" },
     { title: "Our Galleries", path:"/about/gallery"},
     { title: "Services", path: "/services" },
     { title: "Contact Us", path: "/contact" }
@@ -21,7 +22,7 @@ const Navbar = () => {
 
           <a href="/" className='p-3  gap-3  rounded-2xl   text-white font-heading flex justify-center items-center'>
             <img src="/logo.png" className='h-32 lg:h-24 ' />
-            <h1 className=" font-bold text-5xl hidden md:flex">Muscle Care</h1>
+            <h1 className=" font-bold text-5xl hidden md:flex">Arks Pickles</h1>
           </a>
 
           <div className="xl:hidden ">
@@ -63,8 +64,8 @@ const Navbar = () => {
 
 
         <div className="hidden xl:inline-block ">
-          <a href="tel:+917093280464" className="py-3 px-4 text-backgroundColor bg-white hover:bg-blue-500 hover:text-white   text-xl rounded-full font-heading shadow">
-            (+91)70932 80464
+          <a href="tel:+918519958157" className="py-3 px-4 text-backgroundColor bg-white hover:bg-blue-500 hover:text-white   text-xl rounded-full font-heading shadow">
+            (+91)85199 58157
           </a>
         </div>
       </div>
