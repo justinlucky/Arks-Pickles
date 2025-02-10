@@ -9,9 +9,10 @@ const Navbar = () => {
     { title: "Home", path: "/" },
     { title: "About", path: "/about" },
     { title: "Our Products", path: "/products" },
-    { title: "Our Galleries", path:"/about/gallery"},
+    { title: "Cart", path: "/cart" },
     { title: "Services", path: "/services" },
-    { title: "Contact Us", path: "/contact" }
+    { title: "Contact Us", path: "/contact" },
+    {title: "Empty Cart", path: "/cart-empty"},
   ]
 
   return (
@@ -46,8 +47,8 @@ const Navbar = () => {
         </div>
 
 
-        <div className={`w-full xl:w-auto flex justify-start pb-3 mt-8 xl:block xl:pb-0 xl:mt-0 ${state ? 'block  bg-secondary rounded-3xl' : 'hidden'}`}>
-          <ul className="flex flex-col xl:flex-row justify-start items-start space-y-8 xl:space-y-0 xl:gap-8 p-3 xl:px-10 rounded-2xl xl:mx-5 text-white">
+        <div className={`w-full xl:w-auto flex justify-start md:justify-center p-3 mt-8 xl:block xl:pb-0 xl:mt-0 ${state ? 'block  bg-primary md:bg-secondary rounded-3xl' : 'hidden'}`}>
+          <ul className="flex flex-col xl:flex-row justify-center items-center space-y-8 xl:space-y-0 xl:gap-8 p-3 xl:px-10 rounded-2xl xl:mx-5 text-white">
             {
               navigation.map((item, idx) => {
                 return (

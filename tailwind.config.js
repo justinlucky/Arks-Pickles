@@ -15,24 +15,15 @@ export default {
       },
       backgroundImage:{
         'banner': "url('/banner.jpg')",
-        'chriopractor': "url('/chriopractor.png')",
-        'cupping': "url('/cupping.png')",
-        "needle" : "url('/needle.jpg')",
-        "relax": "url('/relax.jpg')",
-        "stretching": "url('/stretching.jpg')",
-        "tape" : "url('/tape.webp')",
-        "cryo" :"url('/cryo.webp')",
-        "boxing" : "url('/boxing.jpg')",
-        "circuit" : "url('/circuit.webp')",
-        "hiit" : "url('/hiit.webp')",
-        "poukin" : "url('/doctorKin.jpg')",
+        'emptyCart': "url('/EmptyCart.png')",
+
 
       },colors:{
         backgroundColor:"#002e4e",
         text:"#00406c",
         heading:"#f0f7ff",
         primary:"#050721",
-        secondary:"09122C",
+        secondary:"#09122C",
         gold:"#ffd700",
         purple:"#7d3c98",
         red:"#ff0000",

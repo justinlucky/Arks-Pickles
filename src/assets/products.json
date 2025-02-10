@@ -1,0 +1,174 @@
+[
+    {
+      "id": 1,
+      "title": "Regular Chicken Pickle",
+      "image": "/ChickenPickle.jpg",
+      "description": "A rich and creamy organic tomato soup made with fresh farm-grown tomatoes.",
+      "preparation_steps": [
+        "Chop fresh tomatoes and onions.",
+        "Sauté onions in a pan with olive oil.",
+        "Add tomatoes, salt, and herbs, then simmer for 20 minutes.",
+        "Blend until smooth and serve hot."
+      ],
+      "rate": 4.7,
+      "wishlist": false,
+      "added_to_cart": false,
+      "rating": 237
+    },
+    {
+      "id": 2,
+      "title": "Boneless Chicken Pickle",
+      "image": "/BonelessChickenPickle.jpg",
+      "description": "A refreshing salad with organic greens, cherry tomatoes, and homemade dressing.",
+      "preparation_steps": [
+        "Wash and chop lettuce, cucumbers, and cherry tomatoes.",
+        "Mix olive oil, lemon juice, salt, and black pepper for the dressing.",
+        "Toss all ingredients together and serve fresh."
+      ],
+      "rate": 4.5,
+      "wishlist": true,
+      "added_to_cart": false,
+      "rating": 185
+    },
+    {
+      "id": 3,
+      "title": "Gongura Chicken Pickle",
+      "image": "/GonguraChickenPickle.jpg",
+      "description": "Crunchy homemade granola with organic oats, nuts, and pure honey.",
+      "preparation_steps": [
+        "Preheat oven to 350°F (175°C).",
+        "Mix oats, nuts, honey, and cinnamon in a bowl.",
+        "Spread on a baking sheet and bake for 15 minutes.",
+        "Let cool before serving."
+      ],
+      "rate": 4.8,
+      "wishlist": false,
+      "added_to_cart": true,
+      "rating": 298
+    },
+    {
+      "id": 4,
+      "title": "Regular Prawns Pickle",
+      "image": "/PrawnsPickle.jpg",
+      "description": "A delicious smoothie made with organic mangoes and fresh yogurt.",
+      "preparation_steps": [
+        "Peel and chop ripe mangoes.",
+        "Blend with fresh yogurt, honey, and ice cubes.",
+        "Pour into a glass and serve chilled."
+      ],
+      "rate": 4.9,
+      "wishlist": true,
+      "added_to_cart": false,
+      "rating": 410
+    },
+    {
+      "id": 5,
+      "title": "Gongura Prawns Pickle",
+      "image": "/GonguraPrawnsPickle.jpg",
+      "description": "Soft and fluffy whole wheat pancakes made with organic ingredients.",
+      "preparation_steps": [
+        "Mix whole wheat flour, baking powder, and milk in a bowl.",
+        "Add eggs, honey, and vanilla extract and whisk until smooth.",
+        "Pour batter onto a hot pan and cook until golden brown.",
+        "Serve with fresh fruits and maple syrup."
+      ],
+      "rate": 4.6,
+      "wishlist": false,
+      "added_to_cart": true,
+      "rating": 320
+    },
+    {
+        "id": 6,
+        "title": "Regular Mutton Pickle",
+        "image": "/MuttonPickle.jpg",
+        "description": "A rich and creamy organic tomato soup made with fresh farm-grown tomatoes.",
+        "preparation_steps": [
+          "Chop fresh tomatoes and onions.",
+          "Sauté onions in a pan with olive oil.",
+          "Add tomatoes, salt, and herbs, then simmer for 20 minutes.",
+          "Blend until smooth and serve hot."
+        ],
+        "rate": 4.7,
+        "wishlist": false,
+        "added_to_cart": false,
+        "rating": 237
+    },
+    {
+        "id": 7,
+        "title" : "Boneless Mutton pickle",
+        "image": "/BonelessMuttonPickle.jpg",
+        "description": "A refreshing salad with organic greens, cherry tomatoes, and homemade dressing.",
+        "preparation_steps": [
+          "Wash and chop lettuce, cucumbers, and cherry tomatoes.",
+          "Mix olive oil, lemon juice, salt, and black pepper for the dressing.",
+          "Toss all ingredients together and serve fresh."
+        ],
+        "rate": 4.5,
+        "wishlist": false,
+        "added_to_cart": false,
+        "rating": 185
+    },
+    {
+        "id": 8,
+        "title": "Gongura Mutton Pickle",
+        "image": "/GonguraMuttonPickle.jpg",
+        "description": "Crunchy homemade granola with organic oats, nuts, and pure honey.",
+        "preparation_steps": [
+          "Preheat oven to 350°F (175°C).",
+          "Mix oats, nuts, honey, and cinnamon in a bowl.",
+          "Spread on a baking sheet and bake for 15 minutes.",
+          "Let cool before serving."
+        ],
+        "rate": 4.8,
+        "wishlist": false,
+        "added_to_cart": false,
+        "rating": 298
+    },
+    {
+        "id": 9,
+        "title": "Regular Fish Pickle",
+        "image": "/FishPickle.jpg",
+        "description": "A delicious smoothie made with organic mangoes and fresh yogurt.",
+        "preparation_steps": [
+          "Peel and chop ripe mangoes.",
+          "Blend with fresh yogurt, honey, and ice cubes.",
+          "Pour into a glass and serve chilled."
+        ],
+        "rate": 4.9,
+        "wishlist": false,
+        "added_to_cart": false,
+        "rating": 410
+    },
+    {
+        "id": 10,
+        "title": "Boneless Fish Pickle",
+        "image": "/BonelessFishPickle.jpg",
+        "description": "Soft and fluffy whole wheat pancakes made with organic ingredients.",
+        "preparation_steps": [
+          "Mix whole wheat flour, baking powder, and milk in a bowl.",
+          "Add eggs, honey, and vanilla extract and whisk until smooth.",
+          "Pour batter onto a hot pan and cook until golden brown.",
+          "Serve with fresh fruits and maple syrup."
+        ],
+        "rate": 4.6,
+        "wishlist": false,
+        "added_to_cart": false,
+        "rating": 320
+    },
+    {
+        "id": 11,
+        "title": "Korameenu Pickle",
+        "image": "/KorameenuPickle.jpg",
+        "description": "A rich and creamy organic tomato soup made with fresh farm-grown tomatoes.",
+        "preparation_steps": [
+          "Chop fresh tomatoes and onions.",
+          "Sauté onions in a pan with olive oil.",
+          "Add tomatoes, salt, and herbs, then simmer for 20 minutes.",
+          "Blend until smooth and serve hot."
+        ],
+        "rate": 4.7,
+        "wishlist": false,
+        "added_to_cart": false,
+        "rating": 237
+    }
+  ]
