@@ -1,174 +1,237 @@
 [
-    {
-      "id": 1,
-      "title": "Regular Chicken Pickle",
-      "image": "/ChickenPickle.jpg",
-      "description": "A rich and creamy organic tomato soup made with fresh farm-grown tomatoes.",
-      "preparation_steps": [
-        "Chop fresh tomatoes and onions.",
-        "Sauté onions in a pan with olive oil.",
-        "Add tomatoes, salt, and herbs, then simmer for 20 minutes.",
-        "Blend until smooth and serve hot."
-      ],
-      "rate": 4.7,
-      "wishlist": false,
-      "added_to_cart": false,
-      "rating": 237
-    },
-    {
-      "id": 2,
-      "title": "Boneless Chicken Pickle",
-      "image": "/BonelessChickenPickle.jpg",
-      "description": "A refreshing salad with organic greens, cherry tomatoes, and homemade dressing.",
-      "preparation_steps": [
-        "Wash and chop lettuce, cucumbers, and cherry tomatoes.",
-        "Mix olive oil, lemon juice, salt, and black pepper for the dressing.",
-        "Toss all ingredients together and serve fresh."
-      ],
-      "rate": 4.5,
-      "wishlist": true,
-      "added_to_cart": false,
-      "rating": 185
-    },
-    {
-      "id": 3,
-      "title": "Gongura Chicken Pickle",
-      "image": "/GonguraChickenPickle.jpg",
-      "description": "Crunchy homemade granola with organic oats, nuts, and pure honey.",
-      "preparation_steps": [
-        "Preheat oven to 350°F (175°C).",
-        "Mix oats, nuts, honey, and cinnamon in a bowl.",
-        "Spread on a baking sheet and bake for 15 minutes.",
-        "Let cool before serving."
-      ],
-      "rate": 4.8,
-      "wishlist": false,
-      "added_to_cart": true,
-      "rating": 298
-    },
-    {
-      "id": 4,
-      "title": "Regular Prawns Pickle",
-      "image": "/PrawnsPickle.jpg",
-      "description": "A delicious smoothie made with organic mangoes and fresh yogurt.",
-      "preparation_steps": [
-        "Peel and chop ripe mangoes.",
-        "Blend with fresh yogurt, honey, and ice cubes.",
-        "Pour into a glass and serve chilled."
-      ],
-      "rate": 4.9,
-      "wishlist": true,
-      "added_to_cart": false,
-      "rating": 410
-    },
-    {
-      "id": 5,
-      "title": "Gongura Prawns Pickle",
-      "image": "/GonguraPrawnsPickle.jpg",
-      "description": "Soft and fluffy whole wheat pancakes made with organic ingredients.",
-      "preparation_steps": [
-        "Mix whole wheat flour, baking powder, and milk in a bowl.",
-        "Add eggs, honey, and vanilla extract and whisk until smooth.",
-        "Pour batter onto a hot pan and cook until golden brown.",
-        "Serve with fresh fruits and maple syrup."
-      ],
-      "rate": 4.6,
-      "wishlist": false,
-      "added_to_cart": true,
-      "rating": 320
-    },
-    {
-        "id": 6,
-        "title": "Regular Mutton Pickle",
-        "image": "/MuttonPickle.jpg",
-        "description": "A rich and creamy organic tomato soup made with fresh farm-grown tomatoes.",
-        "preparation_steps": [
-          "Chop fresh tomatoes and onions.",
-          "Sauté onions in a pan with olive oil.",
-          "Add tomatoes, salt, and herbs, then simmer for 20 minutes.",
-          "Blend until smooth and serve hot."
-        ],
-        "rate": 4.7,
-        "wishlist": false,
-        "added_to_cart": false,
-        "rating": 237
-    },
-    {
-        "id": 7,
-        "title" : "Boneless Mutton pickle",
-        "image": "/BonelessMuttonPickle.jpg",
-        "description": "A refreshing salad with organic greens, cherry tomatoes, and homemade dressing.",
-        "preparation_steps": [
-          "Wash and chop lettuce, cucumbers, and cherry tomatoes.",
-          "Mix olive oil, lemon juice, salt, and black pepper for the dressing.",
-          "Toss all ingredients together and serve fresh."
-        ],
-        "rate": 4.5,
-        "wishlist": false,
-        "added_to_cart": false,
-        "rating": 185
-    },
-    {
-        "id": 8,
-        "title": "Gongura Mutton Pickle",
-        "image": "/GonguraMuttonPickle.jpg",
-        "description": "Crunchy homemade granola with organic oats, nuts, and pure honey.",
-        "preparation_steps": [
-          "Preheat oven to 350°F (175°C).",
-          "Mix oats, nuts, honey, and cinnamon in a bowl.",
-          "Spread on a baking sheet and bake for 15 minutes.",
-          "Let cool before serving."
-        ],
-        "rate": 4.8,
-        "wishlist": false,
-        "added_to_cart": false,
-        "rating": 298
-    },
-    {
-        "id": 9,
-        "title": "Regular Fish Pickle",
-        "image": "/FishPickle.jpg",
-        "description": "A delicious smoothie made with organic mangoes and fresh yogurt.",
-        "preparation_steps": [
-          "Peel and chop ripe mangoes.",
-          "Blend with fresh yogurt, honey, and ice cubes.",
-          "Pour into a glass and serve chilled."
-        ],
-        "rate": 4.9,
-        "wishlist": false,
-        "added_to_cart": false,
-        "rating": 410
-    },
-    {
-        "id": 10,
-        "title": "Boneless Fish Pickle",
-        "image": "/BonelessFishPickle.jpg",
-        "description": "Soft and fluffy whole wheat pancakes made with organic ingredients.",
-        "preparation_steps": [
-          "Mix whole wheat flour, baking powder, and milk in a bowl.",
-          "Add eggs, honey, and vanilla extract and whisk until smooth.",
-          "Pour batter onto a hot pan and cook until golden brown.",
-          "Serve with fresh fruits and maple syrup."
-        ],
-        "rate": 4.6,
-        "wishlist": false,
-        "added_to_cart": false,
-        "rating": 320
-    },
-    {
-        "id": 11,
-        "title": "Korameenu Pickle",
-        "image": "/KorameenuPickle.jpg",
-        "description": "A rich and creamy organic tomato soup made with fresh farm-grown tomatoes.",
-        "preparation_steps": [
-          "Chop fresh tomatoes and onions.",
-          "Sauté onions in a pan with olive oil.",
-          "Add tomatoes, salt, and herbs, then simmer for 20 minutes.",
-          "Blend until smooth and serve hot."
-        ],
-        "rate": 4.7,
-        "wishlist": false,
-        "added_to_cart": false,
-        "rating": 237
-    }
-  ]
+  {
+    "id": "regular-chicken-pickle",
+    "title": "Regular Chicken Pickle",
+    "image": "/ChickenPickle.jpg",
+    "description": "Our Chicken Pickle is a homemade delicacy, crafted with juicy chicken pieces slow-cooked in our rich blend of Indian spices like turmeric, red chili, jeera, and garam masala. Spicy, tangy, and full of desi flavors, it’s the perfect companion to our everyday meals!",
+    "preparation_steps": [
+      "Wash and pat dry chicken",
+      "Cut it into small bite-sized pieces.",
+      "Heat a pan and dry roast the chicken pieces for 5-7 minutes to remove moisture.",
+      "Add a little turmeric powder and salt while roasting.",
+      "Once the chicken is partially cooked, set it aside.",
+      "Dry roast 1 tbsp cumin seeds, 1 tbsp coriander seeds, and 1 tsp fennel seeds.",
+      "Grind them into a coarse powder.",
+      "Heat 1 cup of peanut or sunflower oil in a pan.",
+      "Add 1 tsp mustard seeds and let them splutter.",
+      "Add 1 tbsp ginger-garlic paste and sauté until golden brown.",
+      "Add 1 tsp turmeric powder, 2 tbsp red chili powder, 1 tbsp garam masala, and the ground spice mix.",
+      "Mix well and cook for a minute.",
+      "Add the pre-cooked chicken to the masala and mix well.",
+      "Cook on low flame until the chicken absorbs the flavors and the oil separates.",
+      "Add 2 tbsp vinegar and mix well.",
+      "Optionally, add 1 tbsp lemon juice for extra tanginess.",
+      "Let it cook for another 5 minutes.",
+      "Allow the pickle to cool completely. Store in a clean, dry glass jar.",
+      "Let it sit for 1-2 days for the flavors to blend before consuming."
+    ],
+    "rate": 4.7,
+    "wishlist": false,
+    "added_to_cart": false,
+    "rating": 237,
+    "max_price": 900,
+    "min_price": 549
+  },
+  {
+    "id": "boneless-chicken-pickle",
+    "title": "Boneless Chicken Pickle",
+    "image": "/BonelessChickenPickle.jpg",
+    "description": "Our Boneless Chicken Pickle is a rich and flavorful treat, made with tender, boneless chicken pieces slow-cooked in our special blend of Indian spices, edible oil, and aromatic herbs. Spicy, tangy, and full of homemade goodness, it’s the perfect side for our everyday meals!",
+    "preparation_steps": [
+      "Wash and pat dry boneless chicken",
+      "Cut it into small bite-sized pieces.",
+      "Heat a pan and dry roast the chicken pieces for 5-7 minutes to remove moisture.",
+      "Add a little turmeric powder and salt while roasting.",
+      "Once the chicken is partially cooked, set it aside.",
+      "Dry roast 1 tbsp cumin seeds, 1 tbsp coriander seeds, and 1 tsp fennel seeds.",
+      "Grind them into a coarse powder.",
+      "Heat 1 cup of peanut or sunflower oil in a pan.",
+      "Add 1 tsp mustard seeds and let them splutter.",
+      "Add 1 tbsp ginger-garlic paste and sauté until golden brown.",
+      "Add 1 tsp turmeric powder, 2 tbsp red chili powder, 1 tbsp garam masala, and the ground spice mix.",
+      "Mix well and cook for a minute.",
+      "Add the pre-cooked chicken to the masala and mix well.",
+      "Cook on low flame until the chicken absorbs the flavors and the oil separates.",
+      "Add 2 tbsp vinegar and mix well.",
+      "Optionally, add 1 tbsp lemon juice for extra tanginess.",
+      "Let it cook for another 5 minutes.",
+      "Allow the pickle to cool completely. Store in a clean, dry glass jar.",
+      "Let it sit for 1-2 days for the flavors to blend before consuming."
+    ],
+    "rate": 4.5,
+    "wishlist": true,
+    "added_to_cart": false,
+    "rating": 185,
+    "max_price": 1000,
+    "min_price": 550
+  },
+  {
+    "id": "gongura-chicken-pickle",
+    "title": "Gongura Chicken Pickle",
+    "image": "/GonguraChickenPickle.jpg",
+    "description": "Our Gongura Chicken Pickle is a unique blend of tender chicken and tangy gongura leaves, slow-cooked with our rich mix of Indian spices and pure peanut or sunflower oil. Bursting with spicy, sour, and authentic flavors, it’s the perfect way to add a traditional touch to our meals!",
+    "preparation_steps": [
+      "Wash and cut the chicken into small pieces.",
+      "Boil the chicken with turmeric, salt, and a little water until fully cooked.",
+      "Once cooked, drain any excess water and let it cool.",
+      "Wash and dry the gongura leaves completely.",
+      "Heat a pan and dry-roast the leaves until they become soft and slightly mushy. Set aside.",
+      "Dry roast red chilies, cumin seeds, mustard seeds, and coriander seeds. Grind them into a coarse powder.",
+      "Heat oil in a pan and deep-fry the cooked chicken pieces until golden brown and crispy. Set aside.",
+      "In the same oil, add mustard seeds, garlic cloves, curry leaves, and dry red chilies.",
+      "Sauté until the garlic turns golden brown.",
+      "Add the mashed gongura leaves and cook for a few minutes.",
+      "Mix in the spice powder and fried chicken pieces.",
+      "Stir well, ensuring the chicken is coated with the gongura mixture.",
+      "Cook on low heat for a few more minutes, allowing the flavors to blend.",
+      "Let the pickle cool completely before storing in an airtight glass jar. It stays fresh for weeks when stored properly."
+    ],
+    "rate": 4.8,
+    "wishlist": false,
+    "added_to_cart": true,
+    "rating": 298,
+    "max_price": 800,
+    "min_price": 500
+  },
+  {
+    "id": "regular-prawns-pickle",
+    "title": "Regular Prawns Pickle",
+    "image": "/PrawnsPickle.jpg",
+    "description": "Our Prawns Pickle is a flavorful delight, made with juicy prawns slow-cooked in our special blend of Indian spices and pure peanut or sunflower oil. Spicy, tangy, and packed with coastal goodness, it’s the perfect companion to our everyday meals!",
+    "preparation_steps": [
+      "Peel and chop ripe mangoes.",
+      "Blend with fresh yogurt, honey, and ice cubes.",
+      "Pour into a glass and serve chilled."
+    ],
+    "rate": 4.9,
+    "wishlist": true,
+    "added_to_cart": false,
+    "rating": 410,
+    "max_price": 800,
+    "min_price": 500
+  },
+  {
+    "id": "gpngura-prawns-pickle",
+    "title": "Gongura Prawns Pickle",
+    "image": "/GonguraPrawnsPickle.jpg",
+    "description": "Our Gongura Prawns Pickle is a delicious fusion of juicy prawns and tangy gongura leaves, slow-cooked in our special blend of Indian spices and pure peanut or sunflower oil. Spicy, sour, and packed with authentic flavors, it’s the perfect way to add a traditional touch to our meals!",
+    "preparation_steps": [
+      "Mix whole wheat flour, baking powder, and milk in a bowl.",
+      "Add eggs, honey, and vanilla extract and whisk until smooth.",
+      "Pour batter onto a hot pan and cook until golden brown.",
+      "Serve with fresh fruits and maple syrup."
+    ],
+    "rate": 4.6,
+    "wishlist": false,
+    "added_to_cart": true,
+    "rating": 320,
+    "max_price": 900,
+    "min_price": 549
+  },
+  {
+    "id": "regular-mutton-pickle",
+    "title": "Regular Mutton Pickle",
+    "image": "/MuttonPickle.jpg",
+    "description": "Our Mutton Pickle is a rich and flavorful delicacy, made with tender mutton pieces slow-cooked in our special blend of Indian spices and pure peanut or sunflower oil. Spicy, aromatic, and full of traditional goodness, it’s the perfect side to elevate our meals!",
+    "preparation_steps": [
+      "Chop fresh tomatoes and onions.",
+      "Sauté onions in a pan with olive oil.",
+      "Add tomatoes, salt, and herbs, then simmer for 20 minutes.",
+      "Blend until smooth and serve hot."
+    ],
+    "rate": 4.7,
+    "wishlist": false,
+    "added_to_cart": false,
+    "rating": 237,
+    "max_price": 900,
+    "min_price": 549
+  },
+  {
+    "id": "boneless-mutton-pickle",
+    "title": "Boneless Mutton pickle",
+    "image": "/BonelessMuttonPickle.jpg",
+    "description": "Our Boneless Mutton Pickle is a delicious treat, made with tender, boneless mutton pieces slow-cooked in our special blend of Indian spices and pure peanut or sunflower oil. Spicy, aromatic, and bursting with rich flavors, it’s the perfect side to complement our meals!",
+    "preparation_steps": [
+      "Wash and chop lettuce, cucumbers, and cherry tomatoes.",
+      "Mix olive oil, lemon juice, salt, and black pepper for the dressing.",
+      "Toss all ingredients together and serve fresh."
+    ],
+    "rate": 4.5,
+    "wishlist": false,
+    "added_to_cart": false,
+    "rating": 185,
+    "max_price": 1000,
+    "min_price": 600
+  },
+  {
+    "id": "gongura-mutton-pickle",
+    "title": "Gongura Mutton Pickle",
+    "image": "/GonguraMuttonPickle.jpg",
+    "description": "Our Gongura Mutton Pickle is a flavorful fusion of tender mutton pieces and tangy gongura leaves, slow-cooked in our special blend of Indian spices and pure peanut or sunflower oil. Spicy, sour, and packed with authentic taste, it’s the perfect way to add a traditional touch to our meals!",
+    "preparation_steps": [
+      "Preheat oven to 350°F (175°C).",
+      "Mix oats, nuts, honey, and cinnamon in a bowl.",
+      "Spread on a baking sheet and bake for 15 minutes.",
+      "Let cool before serving."
+    ],
+    "rate": 4.8,
+    "wishlist": false,
+    "added_to_cart": false,
+    "rating": 298,
+    "max_price": 900,
+    "min_price": 549
+  },
+  {
+    "id": "regular-fish-pickle",
+    "title": "Regular Fish Pickle",
+    "image": "/FishPickle.jpg",
+    "description": "Our Fish Pickle is a delicious blend of fresh fish pieces slow-cooked in our special mix of Indian spices and pure peanut or sunflower oil. Spicy, tangy, and full of coastal flavors, it’s the perfect side to enhance our everyday meals!",
+    "preparation_steps": [
+      "Peel and chop ripe mangoes.",
+      "Blend with fresh yogurt, honey, and ice cubes.",
+      "Pour into a glass and serve chilled."
+    ],
+    "rate": 4.9,
+    "wishlist": false,
+    "added_to_cart": false,
+    "rating": 410,
+    "max_price": 800,
+    "min_price": 500
+  },
+  {
+    "id": "boneless-fish-pickle",
+    "title": "Boneless Fish Pickle",
+    "image": "/BonelessFishPickle.jpg",
+    "description": "Our Boneless Fish Pickle is a flavorful delight, made with tender, boneless fish pieces slow-cooked in our special blend of Indian spices and pure peanut or sunflower oil. Spicy, tangy, and packed with coastal goodness, it’s the perfect side to elevate our meals!",
+    "preparation_steps": [
+      "Mix whole wheat flour, baking powder, and milk in a bowl.",
+      "Add eggs, honey, and vanilla extract and whisk until smooth.",
+      "Pour batter onto a hot pan and cook until golden brown.",
+      "Serve with fresh fruits and maple syrup."
+    ],
+    "rate": 4.6,
+    "wishlist": false,
+    "added_to_cart": false,
+    "rating": 320,
+    "max_price": 900,
+    "min_price": 549
+  },
+  {
+    "id": "korameenu-pickle",
+    "title": "Korameenu Pickle",
+    "image": "/KorameenuPickle.jpg",
+    "description": "Our Korameenu Pickle is a true delicacy, made with premium Korameenu (Murrel) fish slow-cooked in our special blend of Indian spices and pure peanut or sunflower oil. Spicy, tangy, and bursting with rich coastal flavors, it’s the perfect side to complement our traditional meals!",
+    "preparation_steps": [
+      "Chop fresh tomatoes and onions.",
+      "Sauté onions in a pan with olive oil.",
+      "Add tomatoes, salt, and herbs, then simmer for 20 minutes.",
+      "Blend until smooth and serve hot."
+    ],
+    "rate": 4.7,
+    "wishlist": false,
+    "added_to_cart": false,
+    "rating": 237,
+    "max_price": 1000,
+    "min_price": 600
+  }
+]

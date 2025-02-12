@@ -27,7 +27,7 @@ export default {
         gold:"#ffd700",
         purple:"#7d3c98",
         red:"#ff0000",
-        footer: "#030518"
+        footer: "#030518",
       },
       animation: {
         scroll:
