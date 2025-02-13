@@ -15,7 +15,6 @@ const ServicePreview = () => {
                 className="w-[250px] h-[250px] rounded-lg shadow-lg shadow-gray-700 hover:shadow-gray-500"
               />
               <h3 className="text-gray-200 mt-3 text-xl text-center">{service.title}</h3>
-              <p className="text-green-500 text-center mt-2">{service.slogan}</p>
             </Link>
           </div>
         ))}4

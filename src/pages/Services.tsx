@@ -6,6 +6,9 @@ const Services = () => {
   return (
     <div className="bg-primary">
       <Navbar/>
+      <div>
+        
+      </div>
       <FooterDark/>
     </div>
   )

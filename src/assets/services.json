@@ -1,30 +1,23 @@
 [
   {
-    "id": "service-1",
+    "id": "custom-pickle-orders",
     "title": "Custom Pickle Orders",
-    "image": "/custom-pickle.jpg",
+    "image": "/CustomPickle.jpg",
     "description": "Get your favorite pickles customized to your taste. Choose your ingredients and spice levels.",
     "slogan": "Personalized pickles just for you!"
   },
   {
-    "id": "service-2",
+    "id": "corporate-gifting",
     "title": "Corporate Gifting",
-    "image": "/corporate-gifting.jpg",
+    "image": "/Gifting.jpg",
     "description": "Impress your clients and employees with our exclusive pickle gift hampers.",
     "slogan": "The perfect gift for every occasion!"
   },
   {
-    "id": "service-3",
+    "id": "catering-services",
     "title": "Catering Services",
-    "image": "/catering.jpg",
+    "image": "/Catering.PNG",
     "description": "Add a unique touch to your events with our delicious pickles and laddus.",
     "slogan": "Make your events memorable with our flavors!"
-  },
-  {
-    "id": "service-4",
-    "title": "Cooking Workshops",
-    "image": "/workshop.jpg",
-    "description": "Join our workshops to learn the art of making traditional pickles and sweets.",
-    "slogan": "Master the art of pickle making!"
   }
 ]
