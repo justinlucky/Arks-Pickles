@@ -63,9 +63,9 @@ const Products = () => {
   };
 
   return (
-    <div className="bg-primary p-2 flex flex-col gap-20 pt-20">
+    <div className="bg-primary p-2 flex flex-col gap-20">
       <Navbar />
-      <h1 className="text-white text-center text-5xl">Our Products</h1>
+      <h1 className="text-white text-center text-5xl font-teko">Our Products</h1>
       <div className="flex flex-wrap gap-10 justify-center max-w-[1024px] items-center mx-auto">
         {products.map((product) => (
           <div key={product.id} className="flex flex-col items-center gap-2">

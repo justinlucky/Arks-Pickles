@@ -66,10 +66,10 @@ const Cart = () => {
               ))}
             </ul>
             <div className="mt-10 flex items-start bg-secondary p-5 flex-col rounded-lg shadow-md shadow-backgroundColor">
-              <p className="text-md text-white flex items-center gap-1">Items Cost: <span className="flex items-center "><FaIndianRupeeSign /> {calculateTotal()}</span></p>
-              <p className="text-md text-white flex items-center gap-1">Delivery Charges: <span className="flex items-center "><FaIndianRupeeSign /> {cart.reduce((total, item) => total + item.quantity * 50, 0)}</span></p>
-              <p className="text-[12px] text-red">*Delivery charges are fixed</p>
-              <p className="text-md text-white flex items-center gap-1">Total Cost: <span className="flex items-center "><FaIndianRupeeSign /> {calculateTotal() + cart.reduce((total, item) => total + item.quantity * 50, 0)}</span></p>
+              <p className="text-sm text-white flex items-center gap-1">Items Cost: <span className="flex items-center "><FaIndianRupeeSign /> {calculateTotal()}</span></p>
+              <p className="text-sm text-white flex items-center gap-1">Delivery Charges + Additional Charges: <span className="flex items-center "><FaIndianRupeeSign /> {cart.reduce((total, item) => total + item.quantity * 50, 0)}</span></p>
+              <p className="text-[10px] text-red">*Delivery charges and additional charges are fixed</p>
+              <p className="text-sm text-white flex items-center gap-1">Total Cost: <span className="flex items-center "><FaIndianRupeeSign /> {calculateTotal() + cart.reduce((total, item) => total + item.quantity * 50, 0)}</span></p>
               <div style={{ "height": "2px", "width": "100%", "backgroundColor": "violet", "marginTop": "5px" }}></div>
               <p className="text-gold mt-5">Ready to Pay the total amount {calculateTotal() + cart.reduce((total, item) => total + item.quantity * 50, 0)}?</p>
               <div className="mt-5 flex-row">

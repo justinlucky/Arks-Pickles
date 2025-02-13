@@ -1,20 +1,24 @@
+
+
 const Preview = () => {
   const description = `
-    At Muscle Care Clinic, we believe in the power of personalized care to restore your body's natural balance. 
-    Our experienced team of physiotherapists and chiropractors is committed to providing comprehensive treatment 
-    plans tailored to your unique needs. Whether you're recovering from an injury, managing chronic pain, or 
-    seeking preventive care, we're here to support you on your journey to optimal health. Our goal is to empower 
-    you to live a more active, pain-free life.
-    Experience the Muscle Care Clinic difference today and discover how our specialized treatments can help you 
-    achieve your wellness goals.
+    At Arks Pickles, we take pride in crafting a diverse range of pickles and laddus that bring the authentic taste of tradition to your table. 
+    Our products are made with the finest ingredients, carefully selected and prepared to ensure the highest quality and flavor. 
+    From our tangy Gongura Chicken Pickle to our wholesome Nuvulla Laddu, each product is a testament to our commitment to excellence.
+    Whether you're looking for a spicy pickle to complement your meals or a sweet treat to satisfy your cravings, Arks Pickles has something for everyone.
   `;
 
-  const closing = `Thank you for visiting Muscle Care Clinic! We’re excited to be part of your journey toward better health and wellness. Our team is here to provide you with personalized care and unwavering support every step of the way. Let’s work together to achieve your goals and help you feel your best. We look forward to welcoming you soon!`;
+  const closing = `
+    Thank you for choosing Arks Pickles! We are excited to be part of your culinary journey and bring the flavors of tradition to your home. 
+    Our team is dedicated to providing you with the best products and customer service. 
+    We look forward to serving you and hope you enjoy our pickles and laddus as much as we enjoy making them for you. 
+    Experience the taste of tradition with Arks Pickles!
+  `;
 
   const Button = () => (
     <a
       href="/about"
-      className="relative inline-flex items-center justify-center w-1/3 p-4 px-4 py-1 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-secondary rounded-2xl shadow-md group"
+      className="relative inline-flex items-center justify-center w-1/3 p-4 px-4 py-1 overflow-hidden font-medium text-violet-300 transition duration-300 ease-out border-2 border-green-500 rounded-2xl shadow-md group"
     >
       <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-secondary group-hover:translate-x-0 ease">
         <svg
@@ -32,7 +36,7 @@ const Preview = () => {
           ></path>
         </svg>
       </span>
-      <span className="absolute flex items-center justify-center w-full h-full text-secondary transition-all duration-300 transform group-hover:translate-x-full ease">
+      <span className="absolute flex items-center justify-center w-full h-full text-green-500 transition-all duration-300 transform group-hover:translate-x-full ease">
         View More
       </span>
       <span className="relative invisible">View More</span>
@@ -43,26 +47,24 @@ const Preview = () => {
     <>
       {/* Mobile View */}
       <div className="flex md:hidden flex-col p-2 md:p-10">
-        <h1 className="font-manrope text-5xl pt-10 pl-3 text-text font-semibold">Our Clinic</h1>
-        <p className="text-justify py-3 m-5">{description}</p>
+        <h1 className="font-manrope text-5xl pt-10 pl-3 text-white font-semibold text-center">Our Kitchen</h1>
+        <p className="text-justify py-3 m-5 text-gray-300">{description}</p>
         <Button />
-        <p className="text-justify py-3 m-5">{closing}</p>
+        <p className="text-justify py-3 m-5 text-gray-300">{closing}</p>
       </div>
 
       {/* Desktop View */}
-      <section className="py-24 mb-32 hidden md:flex font-manrope">
+      <section className="py-20 hidden md:flex font-manrope">
         <div className="max-w-screen-xl mx-auto flex items-center gap-x-12">
-          <img
-            src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-            className="w-1/2 h-full sm:rounded-lg hidden xl:block object-cover"
-            alt="Clinic"
-          />
           <div className="max-w-xl ml-5 lg:max-w-2xl">
-            <h1 className="text-text text-[55px] font-semibold my-10">Our Clinic</h1>
-            <p className="my-10 text-lg text-gray-600">{description}</p>
+            <h1 className="text-white text-[55px] font-semibold my-10 text-center">Our Kitchen</h1>
+            <p className="my-10 text-lg text-gray-300 text-justify">{description}</p>
             <Button />
-            <p className="my-10 text-lg text-gray-600">{closing}</p>
+            <p className="my-10 text-lg text-gray-300 text-justify">{closing}</p>
           </div>
+          <img
+            src={"/Logo.png"} className="w-[350px]"
+          />
         </div>
       </section>
     </>

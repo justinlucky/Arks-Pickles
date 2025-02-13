@@ -76,7 +76,7 @@ const ProductDetail = () => {
           {errorMessage}
         </div>
       )}
-      <h1 className="text-white text-5xl text-center">{product.title}</h1>
+      <h1 className="text-white text-5xl text-center font-teko">{product.title}</h1>
       <div className="flex md:flex-row md:gap-10 max-w-[1024px] flex-col items-center p-4">
         <div className="relative md:w-[300px] lg:h-[450px] lg:w-[450px] md:h-[300px] h-full w-full">
           <img src={product.image} alt={product.title} className="w-full h-full rounded-lg shadow-lg" />
@@ -85,7 +85,7 @@ const ProductDetail = () => {
           </div>
         </div>
         <div className="flex flex-col gap-4 md:w-[400px] w-full">
-          <p className="text-gray-200 mt-5">{product.description}</p>
+          <p className="text-gray-200 mt-5 text-justify">{product.description}</p>
           <div className="flex items-center gap-2">
             <span className="text-yellow-400 text-xl">{product.rate} ★</span>
             <span className="text-gray-200">(as per {product.rating} reviews)</span>
@@ -143,14 +143,14 @@ const ProductDetail = () => {
       <div className="flex flex-col items-center gap-4 max-w-[1024px] w-full p-4 bg-secondary rounded-lg shadow-lg">
         <h2 className="text-white text-2xl mt-6">Why do our customers love our {product.title}?</h2>
         <div style={{ "height": "2px", "width": "100%", "backgroundColor": "purple" }}></div>
-        <ul className="text-gray-200 list-decimal flex flex-col gap-2 px-10 py-5">
+        <ul className="text-gray-200 list-decimal flex flex-col gap-2 px-10 py-3">
           {product.preparation_steps.slice(0, showAllSteps ? product.preparation_steps.length : 3).map((step, index) => (
             <li key={index}>{step}</li>
           ))}
         </ul>
         {product.preparation_steps.length > 1 && (
           <button
-            className="text-blue-500 mt-2"
+            className="text-blue-500 mt-1"
             onClick={() => setShowAllSteps(!showAllSteps)}
           >
             {showAllSteps ? "Read Less" : "Read More"}

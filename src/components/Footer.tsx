@@ -32,7 +32,7 @@ const Footer = () => {
 
   return (
 
-    <footer className="text-gray-500 bg-white px-4 py-5 mt-[-10px] rounded-t-2xl rounded-lg w-full   self-end mx-auto md:px-8">
+    <footer className="text-gray-500 bg-white px-4 py-5 mt-[-10px] rounded-t-2xl w-full   self-end mx-auto md:px-8">
       <div className="max-w-lg sm:mx-auto sm:text-center">
 
         <h1 className=" font-bold text-text text-2xl md:text-3xl">Arks Pickles</h1>
